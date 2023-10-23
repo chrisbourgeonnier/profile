@@ -1,0 +1,123 @@
+body {
+  background-color: #afb3bb;
+  font-family: 'Roboto Serif', serif;
+  color: #212433;
+  font-size: 1.25rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Calibri';
+  font-weight: bolder;
+  line-height: 2.5rem;
+  letter-spacing: 2px;
+  color: #4b0606;
+}
+
+.banner {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  background-color: #1b1f2f;
+}
+
+.banner h1 {
+  line-height: 1.5rem;
+  color: #c3d8f2;
+}
+
+ul {
+  padding: 0px 0px;
+}
+
+li {
+  list-style: none;
+  line-height: 2.5rem;
+}
+
+.inline-links li {
+  display: inline-block;
+  list-style: none;
+}
+
+i {
+  font-size: 3rem;
+  padding: 15px 20px;
+  margin: 20px 10px;
+  color: black;
+  box-shadow: 0 0 1px;
+  border-radius: 50%;
+}
+
+strong {
+  background-color: rgba(0,0,0,0);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px;
+  padding: 10px 50px;
+  margin: 40px auto;
+}
+
+.button {
+  background: rgb(248,239,216);
+  background: radial-gradient(circle, rgba(248,239,216,1) 10%, rgba(183,108,35,1) 86%);
+  color: #4b0606;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+  line-height: 3rem;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+#profile-pic {
+  margin-top: 120px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px;
+}
+
+a:hover {
+  box-shadow: 0 0 2px;
+  font-size: 1.2rem;
+}
+
+.fa-brands:hover {
+  box-shadow: 0 0 10px;
+  color: #2d0900;
+}
+
+@media (min-width: 1250px) {
+  /* For a screen < 1250px, this CSS will be read */
+
+  .container {
+    width: 1000px;
+  }
+
+  i {
+    font-size: 3rem;
+    padding: 15px 20px;
+    margin: 20px 20px;
+    color: black;
+    box-shadow: 0 0 1px;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* For a screen < 1400px, this CSS will be read */
+  body {
+    background: rgb(65,70,90);
+    background: linear-gradient(90deg, rgba(65,70,90,1) 0%, #afb3bb 15%, #afb3bb 85%, rgba(65,70,90,1) 100%);
+  }
+}
